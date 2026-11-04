@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="530" viewBox="0 0 680 530" role="img">
+<title>Maintenance and release</title>
+<style>
+text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.th{font-size:14px;font-weight:600;fill:#2C2C2A}
+.ts{font-size:12px;fill:#5F5E5A}
+.arr{stroke:#888780;stroke-width:1.5;fill:none}
+.box{fill:none;stroke:#B4B2A9}
+.c-teal rect{fill:#E1F5EE;stroke:#0F6E56}.c-teal text{fill:#085041}
+.c-purple rect{fill:#EEEDFE;stroke:#534AB7}.c-purple text{fill:#3C3489}
+.c-gray rect{fill:#F1EFE8;stroke:#5F5E5A}.c-gray text{fill:#444441}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="680" height="530" fill="#FFFFFF"/>
+<text class="ts" x="125" y="40" text-anchor="middle" dominant-baseline="central">Maintained</text>
+<text class="ts" x="355" y="40" text-anchor="middle" dominant-baseline="central">Published, immutable releases</text>
+<text class="ts" x="565" y="40" text-anchor="middle" dominant-baseline="central">Consumer</text>
+<rect x="236" y="56" width="238" height="454" rx="12" class="box" stroke-width="0.5" stroke-dasharray="4 4"/>
+<g class="c-purple"><rect x="40" y="70" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="89" text-anchor="middle" dominant-baseline="central">Registry repo</text>
+<text class="ts" x="125" y="107" text-anchor="middle" dominant-baseline="central">Collection list, PRs</text></g>
+<g class="c-purple"><rect x="40" y="150" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="169" text-anchor="middle" dominant-baseline="central">Registry bot</text>
+<text class="ts" x="125" y="187" text-anchor="middle" dominant-baseline="central">Watches, publishes</text></g>
+<g class="c-purple"><rect x="40" y="240" width="170" height="166" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="314" text-anchor="middle" dominant-baseline="central">Collection repos</text>
+<text class="ts" x="125" y="332" text-anchor="middle" dominant-baseline="central">Curators, PRs</text></g>
+<g class="c-purple"><rect x="40" y="440" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="459" text-anchor="middle" dominant-baseline="central">Data producers</text>
+<text class="ts" x="125" y="477" text-anchor="middle" dominant-baseline="central">Anyone, any way</text></g>
+<g class="c-teal"><rect x="250" y="70" width="210" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="355" y="89" text-anchor="middle" dominant-baseline="central">Registry index</text>
+<text class="ts" x="355" y="107" text-anchor="middle" dominant-baseline="central">Pins collections by hash</text></g>
+<g class="c-teal"><rect x="250" y="240" width="210" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="355" y="259" text-anchor="middle" dominant-baseline="central">Collection indexes</text>
+<text class="ts" x="355" y="277" text-anchor="middle" dominant-baseline="central">Pin manifests by hash</text></g>
+<g class="c-teal"><rect x="250" y="350" width="210" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="355" y="369" text-anchor="middle" dominant-baseline="central">Dataset manifests</text>
+<text class="ts" x="355" y="387" text-anchor="middle" dominant-baseline="central">Point to data files</text></g>
+<g class="c-teal"><rect x="250" y="440" width="210" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="355" y="459" text-anchor="middle" dominant-baseline="central">Data files</text>
+<text class="ts" x="355" y="477" text-anchor="middle" dominant-baseline="central">PRIDE, MassIVE, Zenodo, …</text></g>
+<g class="c-gray"><rect x="490" y="70" width="150" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="565" y="89" text-anchor="middle" dominant-baseline="central">Python client</text>
+<text class="ts" x="565" y="107" text-anchor="middle" dominant-baseline="central">Knows registry DOI</text></g>
+<line x1="212" y1="98" x2="248" y2="98" class="arr" marker-end="url(#arrow)"/>
+<path d="M212 160 L300 160 L300 128" class="arr" marker-end="url(#arrow)"/>
+<path d="M270 238 L270 190 L212 190" class="arr" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<line x1="212" y1="268" x2="248" y2="268" class="arr" marker-end="url(#arrow)"/>
+<line x1="212" y1="378" x2="248" y2="378" class="arr" marker-end="url(#arrow)"/>
+<line x1="212" y1="468" x2="248" y2="468" class="arr" marker-end="url(#arrow)"/>
+<line x1="355" y1="128" x2="355" y2="238" class="arr" marker-end="url(#arrow)"/>
+<line x1="355" y1="298" x2="355" y2="348" class="arr" marker-end="url(#arrow)"/>
+<line x1="355" y1="408" x2="355" y2="438" class="arr" marker-end="url(#arrow)"/>
+<line x1="488" y1="98" x2="462" y2="98" class="arr" marker-end="url(#arrow)"/>
+</svg>

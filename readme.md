@@ -10,6 +10,8 @@ A particular focus is the creation and annotation of very small raw files and se
 
 This is the initial development repository for the project. The project structure, specifications, tooling, and long-term organizational home are still being developed.
 
+The [design overview](design/overview.md) describes the current vision for the project. It is a draft proposal.
+
 ## Background
 
 The project was originally proposed for the EuBIC-MS Hackathon 2027. The original proposal and discussion are preserved here:
